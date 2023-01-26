@@ -1,0 +1,29 @@
+{
+  "name": "example-js-project",
+  "version": "1.0.0",
+  "description": "This an example JS project that is used in the Advanced Git course on Pluralsight",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint index.js lib/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slmtik/example-js-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slmtik/example-js-project/issues"
+  },
+  "homepage": "https://github.com/slmtik/example-js-project#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-strict": "^14.0.1",
+    "mocha": "^6.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  }
+}
